@@ -2,7 +2,8 @@ import os
 import json
 from config import Config as cfg
 from geo_location import geo_location_coordinate
-from google_map_screenshot import get_driver, street_view_image_process
+# from google_map_screenshot import get_driver, street_view_image_process
+from google_map_screenshot_v2 import get_driver, google_street_view_image_capture
 
 class street_view_data_scraping:
     def __init__(self):
@@ -16,7 +17,13 @@ class street_view_data_scraping:
             st_lan_lati = f'{lan_lati[::-1][0]} {lan_lati[::-1][1]}'
             try:
                 driver = get_driver(self.chrome_driver_linux, self.input_url)
-                street_view_image_process(driver, st_lan_lati, cnt, postal_district)
+                google_street_view_image_capture(
+                    driver = driver, 
+                    geo_locaiton = st_lan_lati, 
+                    cnt = cnt, 
+                    postal_district = postal_district,
+                    output_path =self.output_path
+                    )
                 driver.quit()
             except Exception as e:
                 print(f"{e}")
