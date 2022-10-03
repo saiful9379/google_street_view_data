@@ -45,7 +45,7 @@ self.chrome_driver_linux = cfg.chrome_driver_linux
 ```
 python main.py
 ```
-N.B: this algorithm need to update for all of year data crowling.
+N.B: Codebase updated
 
 
 
