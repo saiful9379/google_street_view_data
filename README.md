@@ -18,11 +18,10 @@ pip install pandas==1.3.5
 
 # Configuration
 
-```
-
 Download gb-postcodes-v5 from:
-![Donalod please](https://postcodes-mapit-static.s3.eu-west-2.amazonaws.com/data/gb-postcodes-v5.tar.bz2)
+https://postcodes-mapit-static.s3.eu-west-2.amazonaws.com/data/gb-postcodes-v5.tar.bz2
 
+```
 make sure db folder:
 db:
     - gb-postcodes-v5
