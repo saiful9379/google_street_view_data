@@ -44,7 +44,6 @@ self.chrome_driver_linux = cfg.chrome_driver_linux
 ```
 python main.py
 ```
-N.B: Codebase updated
 
 
 
