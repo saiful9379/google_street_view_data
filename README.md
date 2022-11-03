@@ -1,7 +1,7 @@
 # Google street view data scraping
 Google street view data scraping using geolocation. This script will take 360 degree screenshot within 4 images and also it can take all of years screenshot of the current geolocation.
 
-![](data/AB1/extracted_img_57.11111164821028 -2.092909621148031_AB1_২০০৮_0_0.png)
+![](data/AB1/extracted_img_57.11111164821028 -2.092909621148031_AB1_২০১১_1_0.png)
 
 # Environment
 
