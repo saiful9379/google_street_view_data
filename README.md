@@ -40,7 +40,7 @@ self.chrome_driver_linux = cfg.chrome_driver_linux
 
 ```
 
-# Run for taking screenshot
+# For Screenshot
 
 ```
 python main.py
